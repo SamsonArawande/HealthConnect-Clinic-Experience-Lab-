@@ -25,7 +25,7 @@ HealthConnect Clinic is a fictional healthcare provider facing a high rate of mi
 * Identified assumptions, limitations, risks and dependencies
 * Key early signal: booking lead time and prior no-show history show the strongest relationship with no-shows in initial cross-tabulation
 * Confirmed that `None` in `reminder_channel` is a valid category representing records where no reminder was sent, rather than a missing value
-* 📄 [[Week 4 Initial Analysis Document](./Week4/HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx)
+* 📄 [[[Week 4 Initial Analysis Document](./Week4/HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx)](https://github.com/SamsonArawande/HealthConnect-Clinic-Experience-Lab-/blob/main/HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx)
 
 ### Week 5 — Planned
 
