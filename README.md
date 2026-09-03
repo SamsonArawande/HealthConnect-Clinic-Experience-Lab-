@@ -47,7 +47,7 @@ appointments and improve the patient support experience?
   and prior no-show history (43.5% → 68%); reminders (SMS most effective) and
   distance have real but smaller effects; day, time, age, gender, and
   appointment type show no meaningful variation
-  ![HealthConnect No-Show Dashboard](./Week5_image.jpeg)
+  ![HealthConnect No-Show Dashboard] (./Week5/Week5_image.jpeg)
 - 📄 [Week 5 Initial Analytics Report](./Week5/HealthConnect_Week5_DataAnalytics_AnalyticsReport.docx)
 
 ### Week 6 — Planned
