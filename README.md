@@ -47,8 +47,10 @@ appointments and improve the patient support experience?
   and prior no-show history (43.5% → 68%); reminders (SMS most effective) and
   distance have real but smaller effects; day, time, age, gender, and
   appointment type show no meaningful variation
-  ![HealthConnect No-Show Dashboard](./Week5/Week5_image.jpeg)
-- 📄 [Week 5 Initial Analytics Report](./Week5/HealthConnect_Week5_DataAnalytics_AnalyticsReport.docx)
+
+![HealthConnect No-Show Dashboard](./Week5/Week5_image.jpeg)
+
+- 📄 [Week 5 Initial Analytics Report](./Week5/HealthConnect_Week5_Project_Summary_AnalyticsReport_Samson_Arawande.docx)
 
 ### Week 6 — Planned
 - Investigate whether booking lead time and prior no-show history compound
@@ -62,7 +64,8 @@ appointments and improve the patient support experience?
 /Week4
   HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx
 /Week5
-  HealthConnect_Week5_DataAnalytics_AnalyticsReport.docx
+  HealthConnect_Week5_Project_Summary_AnalyticsReport_Samson_Arawande.docx
+  Week5_image.jpeg
 README.md
 ```
 
