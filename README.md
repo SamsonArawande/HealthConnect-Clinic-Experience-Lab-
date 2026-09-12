@@ -52,22 +52,35 @@ appointments and improve the patient support experience?
 
 - 📄 [Week 5 Initial Analytics Report](./Week5/HealthConnect_Week5_Project_Summary_AnalyticsReport_Samson_Arawande.docx)
 
-### Week 6 — Planned
-- Investigate whether booking lead time and prior no-show history compound
-  each other (interaction effect) as a potential 7th insight
-- Refine the dashboard based on any feedback received
-- Shape business recommendations into a prioritised rollout plan
+### Week 6 — Advanced Analytics, Integration & Validation
+- Deepened Week 5's two strongest findings by testing them together: does
+  booking lead time and prior no-show history compound each other, or do the
+  effects simply add up?
+- Built and validated a Combined Risk matrix (Lead Time × Prior No-Shows) —
+  confirmed the two factors are **additive, not multiplicative** (observed
+  values track within ~1-4 points of what a simple additive model predicts)
+- Validated both strongest KPIs for stability by splitting 2025 into H1/H2 —
+  both hold up well; flagged one new caveat (the 8-14 day lead-time band shows
+  an 11-point gap between halves that the others don't)
+- Ranked all findings by business impact and translated the top ones into
+  specific, targeted actions (e.g. a second confirmation touchpoint for 30+
+  day bookings, SMS-first reminders, telehealth piloting for the 20+km group)
+- Completed a real cross-track integration: the Data Science track requested
+  validated findings with full counts and rates to support their model
+  refinement — delivered a dedicated findings package answering all 10 of
+  their questions, with an open invitation for their error patterns in return
+- Improved (not rebuilt) the dashboard — replaced the single-factor chart with
+  the new heatmap-styled Combined Risk matrix; everything else preserved from
+  Week 5
+
+- 📄 [Week 6 Advanced Analytics Report](./Week6/HealthConnect_Week6_DataAnalytics_AdvancedAnalyticsReport.docx)
+- 📄 [Data Science Findings Package](./Week6/HealthConnect_DataAnalytics_to_DataScience_FindingsPackage.docx)
+
+### Week 7 — Planned
+- Analyse the Data Science track's returned model error patterns (false
+  positives/negatives) and run targeted validation on any weak segments
+- Investigate the 8-14 day lead-time band's instability further
+- Re-test the interaction finding once 2026 data is complete
+- Gather feedback on the dashboard's usability
 
 ## Repository Structure
-
-```
-/Week4
-  HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx
-/Week5
-  HealthConnect_Week5_Project_Summary_AnalyticsReport_Samson_Arawande.docx
-  Week5_image.jpeg
-README.md
-```
-
----
-*Part of the AnalystLab Africa Experience Lab programme. #AnalystLabAfrica*
