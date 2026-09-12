@@ -75,6 +75,7 @@ appointments and improve the patient support experience?
 
 - 📄 [Week 6 Advanced Analytics Report](./Week6/HealthConnect_Week6_DataAnalytics_AdvancedAnalyticsReport.docx)
 - 📄 [Data Science Findings Package](./Week6/HealthConnect_DataAnalytics_to_DataScience_FindingsPackage.docx)
+- 📊 [Week 6 Power BI Dashboard](./Week6/HealthConnect_Week6_Dashboard.pbix)
 
 ### Week 7 — Planned
 - Analyse the Data Science track's returned model error patterns (false
@@ -84,3 +85,19 @@ appointments and improve the patient support experience?
 - Gather feedback on the dashboard's usability
 
 ## Repository Structure
+
+```
+/Week4
+  HealthConnect_Week4_DataAnalytics_InitialAnalysis.docx
+/Week5
+  HealthConnect_Week5_Project_Summary_AnalyticsReport_Samson_Arawande.docx
+  Week5_image.jpeg
+/Week6
+  HealthConnect_Week6_DataAnalytics_AdvancedAnalyticsReport.docx
+  HealthConnect_DataAnalytics_to_DataScience_FindingsPackage.docx
+  HealthConnect_Week6_Dashboard.pbix
+README.md
+```
+
+---
+*Part of the AnalystLab Africa Experience Lab programme. #AnalystLabAfrica*
