@@ -77,12 +77,35 @@ appointments and improve the patient support experience?
 - 📄 [Data Science Findings Package](./Week6/HealthConnect_DataAnalytics_to_DataScience_FindingsPackage.docx)
 - 📊 [Week 6 Power BI Dashboard](./Week6/HealthConnect_Week6_Dashboard.pbix)
 
-### Week 7 — Planned
-- Analyse the Data Science track's returned model error patterns (false
-  positives/negatives) and run targeted validation on any weak segments
-- Investigate the 8-14 day lead-time band's instability further
-- Re-test the interaction finding once 2026 data is complete
-- Gather feedback on the dashboard's usability
+### Week 7 — Analytical Testing, KPI Validation & Dashboard Refinement
+- Ran two real tests this week, both following a Test → Finding → Action →
+  Retest cycle rather than just re-reporting findings
+- **Test 1**: found a genuine dashboard bug — the Year slicer was silently
+  filtering every visual on Page 1, not just the trend chart that needed it,
+  causing the dashboard (88.24%) to disagree with the written report (91.30%)
+  for the same figure. Fixed via Power BI's Edit Interactions, confirmed on
+  retest across both slicer states
+- **Test 2**: the Data Science track sent back their model's error patterns
+  and 7 specific validation requests. Ran H1/H2 time-split stability checks
+  plus chi-square significance tests (lead time: p<0.001, no-show history:
+  p<0.001) — 5 of 7 concerns confirmed as data-reliable (pointing to genuine
+  modelling difficulty, not a data problem), 1 confirmed as a real, unresolved
+  limitation (the 8-14 day band's month-to-month volatility), 1 reconfirmed an
+  existing small-sample caution
+- Delivered a full validated-findings response addressing every one of their
+  7 points with real tables, not just conclusions — the strongest evidentiary
+  footing this project has had to date
+- No new charts added (per the brief — refine, don't rebuild); the dashboard
+  fix was corrective, and two recommendation caveats were added based on what
+  testing surfaced
+
+- 📄 [Week 7 Testing & Refinement Report](./Week7/HealthConnect_Week7_DataAnalytics_TestingRefinementReport.docx)
+- 📄 [Validated Findings for Data Science](./Week7/HealthConnect_Week7_ValidatedFindings_for_DataScience.docx)
+
+### Week 8 — Planned
+- Finalise the missing-value treatment decision for distance/waiting_time
+- Review Data Science's response to this week's validated findings
+- Prepare for final integration and presentation
 
 ## Repository Structure
 
@@ -96,6 +119,9 @@ appointments and improve the patient support experience?
   HealthConnect_Week6_DataAnalytics_AdvancedAnalyticsReport.docx
   HealthConnect_DataAnalytics_to_DataScience_FindingsPackage.docx
   HealthConnect_Week6_Dashboard.pbix
+/Week7
+  HealthConnect_Week7_DataAnalytics_TestingRefinementReport.docx
+  HealthConnect_Week7_ValidatedFindings_for_DataScience.docx
 README.md
 ```
 
