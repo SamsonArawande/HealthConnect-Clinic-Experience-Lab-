@@ -102,10 +102,47 @@ appointments and improve the patient support experience?
 - 📄 [Week 7 Testing & Refinement Report](./Week7/HealthConnect_Week7_DataAnalytics_TestingRefinementReport.docx)
 - 📄 [Validated Findings for Data Science](./Week7/HealthConnect_Week7_ValidatedFindings_for_DataScience.docx)
 
-### Week 8 — Planned
-- Finalise the missing-value treatment decision for distance/waiting_time
-- Review Data Science's response to this week's validated findings
-- Prepare for final integration and presentation
+### Week 8 — Final Integration, Presentation & Project Showcase
+- Consolidated eight weeks of work into one final Analytics & Decision
+  Support Package: final KPIs, validated findings, the tested dashboard,
+  7 business insights, 5 prioritised recommendations, and a full analytical
+  limitations section
+- Closed the loop on the Data Science collaboration with a formal, 9-point
+  final integration record spanning the entire Week 6→8 exchange — not a
+  single handoff, but three rounds of genuine back-and-forth (deliver →
+  receive error patterns → validate → deliver again)
+- Built a 9-slide final presentation deck (Power BI-matched navy/orange
+  palette) covering the problem, the two validated drivers, the additive
+  risk-combination finding, the dashboard, recommendations, and the
+  cross-track collaboration story
+- Bottom line for HealthConnect Clinic: two measurable, statistically
+  significant factors — booking lead time and prior no-show history — drive
+  most preventable no-shows, they combine predictably (not multiplicatively),
+  and the clinic already has a low-cost lever (SMS reminders) it can deploy
+  today
+
+- 📄 [Week 8 Final Analytics & Decision Support Package](./Week8/HealthConnect_Week8_DataAnalytics_FinalPackage.docx)
+- 📊 [Week 8 Final Presentation Deck](./Week8/HealthConnect_Week8_FinalPresentation.pptx)
+
+## Project Retrospective
+
+Across 8 weeks, this project moved from initial problem understanding to a
+validated, statistically tested, cross-track-integrated analytics solution:
+
+- **Weeks 4-5**: defined the problem, cleaned and validated the dataset,
+  built the first KPIs and dashboard
+- **Week 6**: deepened the analysis (the lead-time × history interaction),
+  began real cross-track collaboration with Data Science
+- **Week 7**: stress-tested everything — found and fixed a real dashboard
+  bug, formally validated both core findings with statistical significance
+  tests (p<0.001), and answered 7 specific validation requests from Data
+  Science with evidence, not assumptions
+- **Week 8**: consolidated everything into a final, presentation-ready
+  package and closed the collaboration loop
+
+The single most valuable outcome wasn't a chart — it was proving that
+findings held up under independent, adversarial scrutiny from another track,
+and that those findings measurably shaped someone else's work.
 
 ## Repository Structure
 
@@ -122,6 +159,9 @@ appointments and improve the patient support experience?
 /Week7
   HealthConnect_Week7_DataAnalytics_TestingRefinementReport.docx
   HealthConnect_Week7_ValidatedFindings_for_DataScience.docx
+/Week8
+  HealthConnect_Week8_DataAnalytics_FinalPackage.docx
+  HealthConnect_Week8_FinalPresentation.pptx
 README.md
 ```
 
